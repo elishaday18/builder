@@ -1,0 +1,16 @@
+<div class="charms-detail-container">
+	<div class="close-button" style="text-align: right;"><mat-icon (click)="dialogReference.close()" class="close-modal">close</mat-icon></div>
+	<div class="close-row" style="text-align: center;"><h3 class="detail-div">Details</h3></div>
+	<mat-list *ngIf="data && data.length">
+	  <mat-list-item *ngFor="let product of data">
+	    <img height="80" mat-list-icon width="80" class="product-image" src="{{product.image_url}}"/>
+	    <p class="notes-p" mat-line> {{product.notes}} </p>
+	    <h4 mat-line style="text-align: center;"> ${{product.price}} </h4>
+	  </mat-list-item>
+	</mat-list>
+	<mat-list *ngIf="!data || !data.length">
+		<mat-list-item>
+			<h4 mat-line style="text-align: center;"> No items selected by you </h4>
+		</mat-list-item>
+	</mat-list>
+</div>

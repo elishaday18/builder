@@ -1,0 +1,424 @@
+.picker-images {
+	float: left;
+}
+
+.images-list {
+	display: block;margin:0 auto;text-align: center;
+}
+
+.image-container {
+	display:block;margin:0 auto;max-width: 420px;margin-bottom: 20px;
+}
+
+.chain-image {
+	width: 100%;
+}
+
+.first-div {
+	height: 45px;
+    width: 45px;
+    position: absolute;
+    margin-left: 56px;
+    margin-top: 38px;
+    
+}
+
+.first-div img {
+    height: 70px;
+    width: 70px;
+    transform: rotate(50deg);
+    transform-origin: top center;
+    margin-left: -15px;
+}
+
+.second-div{
+	height: 45px;
+    width: 45px;
+    position: absolute;
+    margin-left: 85px;
+    margin-top: 90px;   
+}
+
+.second-div img {
+    height: 70px;
+    width: 70px;
+    transform: rotate(50deg);
+    transform-origin: top center;
+    margin-left: -15px;
+}
+
+.third-div{
+	height: 45px;
+    width: 45px;
+    position: absolute;
+    margin-left: 114px;
+    margin-top: 144px;
+    
+}
+
+.third-div img {
+    height: 70px;
+    width: 70px;
+    transform: rotate(50deg);
+    transform-origin: top center;
+    margin-left: -15px;
+}
+
+.fourth-div{
+	height: 45px;
+    width: 45px;
+    position: absolute;
+    margin-left: 139px;
+    margin-top: 191px;
+    
+}
+
+.fourth-div img {
+    height: 70px;
+    width: 70px;
+    transform: rotate(50deg);
+    transform-origin: top center;
+    margin-left: -15px;
+}
+
+.fifth-div{
+	height: 45px;
+    width: 45px;
+    position: absolute;
+    margin-left: 167px;
+    margin-top: 241px;
+    
+}
+
+.fifth-div img {
+    height: 70px;
+    width: 70px;
+    transform: rotate(50deg);
+    transform-origin: top center;
+    margin-left: -15px;
+}
+
+.sixth-div{
+	height: 45px;
+    width: 45px;
+    position: absolute;
+    margin-left: 213px;
+    margin-top: 241px;
+    
+}
+
+.sixth-div img {
+    height: 70px;
+    width: 70px;
+    transform: rotate(-50deg);
+    transform-origin: top center;
+    margin-left: -15px;
+}
+
+.main-div {
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    margin-left: 188px;
+    margin-top: 285px;
+       
+}
+
+.main-div img {
+    margin-left: -28px;
+    height: 100px;
+    width: 100px;
+}
+
+.seventh-div{
+	height: 45px;
+    width: 45px;
+    position: absolute;
+    margin-left: 238px;
+    margin-top: 191px;
+    
+}
+
+.seventh-div img {
+    height: 70px;
+    width: 70px;
+    transform: rotate(-50deg);
+    transform-origin: top center;
+    margin-left: -15px;
+}
+
+.eight-div{
+	height: 45px;
+    width: 45px;
+    position: absolute;
+    margin-left: 262px;
+    margin-top: 144px;
+    
+}
+
+.eight-div img {
+    height: 70px;
+    width: 70px;
+    transform: rotate(-50deg);
+    transform-origin: top center;
+    margin-left: -15px;
+}
+
+.nine-div{
+	height: 45px;
+    width: 45px;
+    position: absolute;
+    margin-left: 292px;
+    margin-top: 90px;
+    
+}
+
+.nine-div img {
+    height: 70px;
+    width: 70px;
+    transform: rotate(-50deg);
+    transform-origin: top center;
+    margin-left: -15px;
+}
+
+.ten-div{
+    height: 45px;
+    width: 45px;
+    position: absolute;
+    margin-left: 320px;
+    margin-top: 38px;
+    
+}
+
+.ten-div img {
+    height: 70px;
+    width: 70px;
+    transform: rotate(-50deg);
+    transform-origin: top center;
+    margin-left: -15px;
+}
+
+.ui-state-active {
+    border-top: 1px dashed #000;
+}
+
+.example-spacer {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.ui-draggable-handle {
+    height: 45px;
+    width: 45px;
+}
+
+.ui-draggable-dragging {
+    height: 45px;
+    width:45px;
+}
+
+.mat-button-toggle-group {
+    box-shadow: none;
+}
+
+.mat-button-toggle-label-content {
+    color: #000;
+}
+
+.mat-button-toggle-checked {
+    border: 1px solid #000;
+    background: #ffffff;
+}
+
+.mat-grid.active {
+    border: 1px solid #000;
+}
+
+mat-grid-list {
+    margin-bottom: 5px;
+}
+
+.mat-grid:hover {
+    cursor:pointer;
+    background: #ccc;
+    border: 1px solid #000;
+}
+
+.mat-grid-price {
+    color:#3f51b5;
+}
+
+.loader-div {
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+mat-spinner {
+    margin: 0 auto;
+}
+
+.flexslider {
+    height:120px;
+}
+
+.select-chain-image {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: 1px solid #000;
+}
+
+.chain-options {
+    position: absolute;
+    width: 420px;
+    margin-top: 20px;
+}
+
+.chain-options .image-container {
+    max-width: 150px;
+    margin: 0 auto;
+}
+
+.image-container .select-chain-image {
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.ghost-image {
+    margin-left: -10px;
+    margin-top: -10px;
+}
+
+.ghost-image-right {
+    margin-left: 4px;
+    margin-top: -10px;
+}
+
+.ghost-image-main {
+    margin-left: -2px;
+}
+
+
+.flexslider .flex-direction-nav a,
+.flexslider .flex-direction-nav a {
+display: block; /* I added this line */
+}
+
+.flex-direction-nav .flex-next { right: 0 !important; margin-right: -40px; opacity: 1 !important; }
+.flex-direction-nav .flex-prev { left: 0 !important; opacity: 1 !important; margin-left: -40px; }
+.flexslider { width: 90%; margin: 0 auto; }
+.text-center { text-align: center; color:#000;}
+.quantity-input {  height: 20px;width: 20px; text-align: center; color:#000;}
+.price-div { font-size: 21px; margin-bottom: 10px;}
+button { background: #3E3E3E; color:#ffffff;    width: 300px;margin-top: 20px;margin-bottom: 20px; }
+
+@media only screen and (max-width: 420px) {
+    .image-container {
+        max-width: 300px;
+    }
+
+    .first-div {
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        
+        margin-left: 30px;
+        margin-top: 22px;
+    }
+
+    .second-div {
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        
+        margin-left: 48px;
+        margin-top: 54px;
+    }
+
+    .third-div {
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        
+        margin-left: 67px;
+        margin-top: 85px;
+    }
+
+    .fourth-div {
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        
+        margin-left: 87px;
+        margin-top: 118px;
+    }
+
+    .fifth-div {
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        
+        margin-left: 105px;
+        margin-top: 151px;
+    }
+
+    .sixth-div {
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        
+        margin-left: 157px;
+        margin-top: 151px;
+    }
+
+    .seventh-div {
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        
+        margin-left: 176px;
+        margin-top: 118px;
+    }
+
+    .eight-div{
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        
+        margin-left: 197px;
+        margin-top: 85px;
+    }
+
+    .nine-div{
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        
+        margin-left: 213px;
+        margin-top: 54px;
+        
+    }
+
+    .ten-div{
+        height: 30px;
+        width: 30px;
+        position: absolute;
+        
+        margin-left: 228px;
+        margin-top: 22px;
+        
+    }
+
+    .chain-options {
+        width: 328px;
+    }
+
+    .main-div {
+        height: 45px;
+        width: 45px;
+        position: absolute;
+        margin-left: 128px;
+        margin-top: 197px;
+    }
+}

@@ -1,0 +1,16 @@
+.product-image {
+	height: 80px !important;
+	width: 80px !important;
+}
+
+.mat-dialog-container {
+	min-width: 400px;
+}
+
+.detail-div {
+	margin-top: -20px;
+}
+
+.notes-p {
+	font-size:15px;
+}

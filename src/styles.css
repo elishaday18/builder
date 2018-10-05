@@ -1,0 +1,19 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: 'Helvetica', sans-serif; position: fixed; overflow: scroll; width: 100%; }
+
+.logo-t {
+	font-family: 'Helvetica', cursive;
+    font-size: 55px;
+    margin-left: 1px;
+}
+
+@media only screen and (max-width: 600px) {
+    mat-sidenav-container {
+    	margin-top: 0 !important;
+    }
+    mat-sidenav {
+    	top: 0 !important;
+    }
+}

@@ -1,0 +1,239 @@
+app-root {
+	height: 100%;
+	display: block;
+}
+
+mat-sidenav-container {
+	height: 100%;
+	display: block;
+}
+
+nav-bar-list {
+	height: 100%;
+	display: block;
+	background: #000000;
+	opacity: 0.8;
+}
+
+.white-item {
+	color: #ffffff;
+}
+
+mat-sidenav {
+	background: #3E3E3E;
+	min-width: 360px;
+}
+
+.text-align-right {
+	text-align: right;
+	padding-right: 20px;
+}
+
+.text-align-right mat-icon {
+	cursor: pointer;
+	color: #ffffff;
+}
+
+.small-jewles {
+	height: 80px;
+	width: 80px;
+}
+
+.chain-image {
+	height: 80%;
+	width: 100%;
+	clear: both;
+}
+
+.chain-list {
+	height: 20%;
+	width: 100%;
+	clear: both;
+}
+
+.example-container {
+	height: 80%;
+}
+
+.images-container {
+	height: 100%;
+}
+
+.chain-list {
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.text-align-center {
+	text-align: center;
+}
+
+mat-toolbar {
+	background: #ffffff;
+	border-bottom: 1px solid #000;
+}
+
+.pull-left {
+	float: left;
+}
+
+.pull-right {
+	float: right;
+}
+
+.center-icon {
+	width:80%;
+	text-align: center;
+}
+
+.menu-container {
+	min-height: 50px;
+	border-bottom: 1px solid #000;
+}
+
+.example-spacer {
+  flex: 1 1 auto;
+  text-align: center;
+}
+
+.menu-icon {
+	background: url('../assets/images/icons.webp');
+	background-position: -48px 0px;
+    background-size: 230px;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+}
+
+.home-icon {
+	background: url('../assets/images/icons.webp');
+    background-position: -375px -38px;
+    background-size: 206px;
+    height: 32px;
+    width: 30px;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    margin-left:10px;
+    margin-right: 10px;
+}
+
+.inspire-me-icon {
+	background: url('../assets/images/icons_white.png');
+    background-position: -411px 0px;
+    background-size: 206px;
+    height: 32px;
+    width: 30px;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.log-in-icon {
+	background: url('../assets/images/icons_white.png');
+    background-position: 38px 1px;
+    background-size: 206px;
+    height: 32px;
+    width: 30px;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.load-icon {
+	background: url('../assets/images/icons_white.png');
+    background-position: 80px 1px;
+    background-size: 206px;
+    height: 32px;
+    width: 30px;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.save-icon {
+	background: url('../assets/images/icons_white.png');
+    background-position: -290px 1px;
+    background-size: 206px;
+    height: 32px;
+    width: 30px;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.faq-icon {
+	background: url('../assets/images/icons_white.png');
+    background-position: -289px -38px;
+    background-size: 206px;
+    height: 32px;
+    width: 30px;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.how-to-icon {
+	background: url('../assets/images/icons_white.png');
+    background-position: -248px -38px;
+    background-size: 206px;
+    height: 32px;
+    width: 30px;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.share-icon {
+	background: url('../assets/images/icons_white.png');
+    background-position: -539px -38px;
+    background-size: 206px;
+    height: 32px;
+    width: 30px;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.close-icon {
+    background: url('../assets/images/icons_white.png');
+    background-position: -411px -38px;
+    background-size: 206px;
+    height: 32px;
+    width: 30px;
+    border-radius: 50%;
+    display: block;
+    cursor: pointer;
+    margin-left:0px;
+    margin-right: 10px;   
+}
+
+body {
+	font-family: Helvetica;
+}
+
+.user-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.user-name {
+    margin-bottom: 15px;
+}
+
+.mat-drawer-content{
+    overflow-x: hidden;
+    overflow-y: auto;
+}

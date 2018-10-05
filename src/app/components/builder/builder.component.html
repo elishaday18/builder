@@ -1,0 +1,69 @@
+<div class="container" flex>
+	<div class="image-droppable">
+		<div class="image-container">
+			<div class="chain-options">
+				<div class="image-container">
+					<img class="select-chain-image" (click)="loadChain('rose')" src="assets/images/rose-cut-chain.png"/>
+					<img class="select-chain-image" (click)="loadChain('white')" src="assets/images/white-cut-chain.png"/>
+					<img class="select-chain-image" (click)="loadChain('yellow')" src="assets/images/yellow-cut-chain.png"/>
+				</div>
+			</div>
+			<div class="droppable first-div" id="1"><img class="ghost-image" src="assets/images/ghost.png"/></div>
+			<div class="droppable second-div" id="2"><img class="ghost-image" src="assets/images/ghost.png"/></div>
+			<div class="droppable third-div" id="3"><img class="ghost-image" src="assets/images/ghost.png"/></div>
+			<div class="droppable fourth-div" id="4"><img class="ghost-image" src="assets/images/ghost.png"/></div>
+			<div class="droppable fifth-div" id="5"><img class="ghost-image" src="assets/images/ghost.png"/></div>
+			<div class="droppable sixth-div" id="6"><img class="ghost-image-right" src="assets/images/ghost.png"/></div>
+			<div class="droppable seventh-div" id="7"><img class="ghost-image-right" src="assets/images/ghost.png"/></div>
+			<div class="droppable eight-div" id="8"><img class="ghost-image-right" src="assets/images/ghost.png"/></div>
+			<div class="droppable nine-div" id="9"><img class="ghost-image-right" src="assets/images/ghost.png"/></div>
+			<div class="droppable ten-div" id="10"><img class="ghost-image-right" src="assets/images/ghost.png"/></div>
+			<!-- <div class="droppable eleven-div" id="11"><img class="ghost-image" src="assets/images/ghost.png"/></div> -->
+			<div class="droppable-charm main-div"><img class="ghost-image-main" src="assets/images/ghost.png"/></div>
+			<img class="chain-image" src="{{chain_image}}"/>
+		</div>
+	</div>
+	<!-- <mat-toolbar class="example-toolbar">
+      <span class="example-spacer">
+      	<div class="picker-images" *ngFor="let image of imagesList">
+	         <img class="pickup-jewels" src="{{image.image}}" height="100" width="100"/>
+	    </div>
+      </span>
+    </mat-toolbar> -->
+    <div style="width:100%;">
+
+        <section class="slider">
+        <div>
+		  <mat-grid-list cols="4" rowHeight="30px">
+			  <mat-grid-tile class="mat-grid" (click)="loadCateogry(1)" [ngClass]="{'active': currentCategory == 1 }">Charms</mat-grid-tile>
+			  <mat-grid-tile class="mat-grid" (click)="loadCateogry(2)" [ngClass]="{'active': currentCategory == 2 }">Centers</mat-grid-tile>
+			  <mat-grid-tile class="mat-grid" (click)="loadCateogry(3)" [ngClass]="{'active': currentCategory == 3 }">Large Initials</mat-grid-tile>
+			  <mat-grid-tile class="mat-grid" (click)="loadCateogry(4)" [ngClass]="{'active': currentCategory == 4 }">Small Initials</mat-grid-tile>
+			</mat-grid-list>
+		</div>
+		<div class="loader-div" *ngIf="loading">
+			<mat-spinner></mat-spinner>
+		</div>
+        <div class="flexslider carousel" style="margin-top: 15px;">
+	        <ul class="slides">
+	            <li *ngFor="let image of imagesList">
+	                <img [ngClass]="{'pickup-jewels': true, 'charm-item': currentCategory == 2}" src="{{image.image}}" id="{{image.price}}" [attr.notes]="image.notes"/>
+	            </li>
+	        </ul>
+        </div>
+        <div>
+		  <mat-grid-list cols="3" rowHeight="80px">
+			  <mat-grid-tile class="mat-grid active">Save</mat-grid-tile>
+			  <mat-grid-tile class="mat-grid" (click)="checkout()" [ngClass]="{'pointer-none': price.length < 11}">Buy</mat-grid-tile>
+			  <mat-grid-tile class="mat-grid-price" (click)="openDetails()">${{getPrice()}}</mat-grid-tile>
+			</mat-grid-list>
+		</div>
+      </section>
+    </div>
+	<div class="images-list">
+	
+	</div>
+</div>
+<style>
+#droppable { height: 140px; border: black 1px solid;}
+    </style>

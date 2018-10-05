@@ -1,0 +1,35 @@
+.pinterest-login-button {
+	min-height: 200px;
+	min-width: 200px;
+}
+
+.text-alig-right {
+	text-align: right;
+	margin-bottom: 100px;
+}
+
+.pinterest-login-button {
+	text-align: center;
+}
+
+mat-icon {
+	cursor: pointer;
+}
+
+.pinterest-login-button {
+	min-height: 300px;
+	min-width: 100%;
+}
+
+.heading-div {
+	width: 100%;
+	text-align: center;
+	margin-top: -50px;
+}
+
+.close-modal {
+	display: block;
+    position: relative;
+    float: right;
+    top: 40px;
+}

@@ -1,0 +1,25 @@
+.landing-page-image {
+	width: 100%;
+	cursor: pointer;
+}
+
+.full-image {
+	padding: 0px 10px 10px 10px;
+}
+
+.heading {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.spacer {
+	margin-top: 10px;
+	margin-bottom:10px;
+	height: 20px;
+	font-size:15px;
+	color: #000;
+    font-weight: bold;
+	text-align: center;
+}

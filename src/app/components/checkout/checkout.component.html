@@ -1,0 +1,43 @@
+<div class="container" flex>
+	<div class="image-droppable">
+		<div class="image-container">
+			<div class="droppable first-div" id="1"><img class="ghost-image" src="{{params[0].image_url}}"/></div>
+			<div class="droppable second-div" id="2"><img class="ghost-image" src="{{params[1].image_url}}"/></div>
+			<div class="droppable third-div" id="3"><img class="ghost-image" src="{{params[2].image_url}}"/></div>
+			<div class="droppable fourth-div" id="4"><img class="ghost-image" src="{{params[3].image_url}}"/></div>
+			<div class="droppable fifth-div" id="5"><img class="ghost-image" src="{{params[4].image_url}}"/></div>
+			<div class="droppable sixth-div" id="6"><img class="ghost-image-right" src="{{params[5].image_url}}"/></div>
+			<div class="droppable seventh-div" id="7"><img class="ghost-image-right" src="{{params[6].image_url}}"/></div>
+			<div class="droppable eight-div" id="8"><img class="ghost-image-right" src="{{params[7].image_url}}"/></div>
+			<div class="droppable nine-div" id="9"><img class="ghost-image-right" src="{{params[8].image_url}}"/></div>
+			<div class="droppable ten-div" id="10"><img class="ghost-image-right" src="{{params[9].image_url}}"/></div>
+			<!-- <div class="droppable eleven-div" id="11"><img class="ghost-image" src="assets/images/ghost.png"/></div> -->
+			<div class="droppable-charm main-div"><img class="ghost-image-main" src="{{params[10].image_url}}"/></div>
+			<img class="chain-image" src="{{chain_image}}"/>
+		</div>
+	</div>
+	<!-- <mat-toolbar class="example-toolbar">
+      <span class="example-spacer">
+      	<div class="picker-images" *ngFor="let image of imagesList">
+	         <img class="pickup-jewels" src="{{image.image}}" height="100" width="100"/>
+	    </div>
+      </span>
+    </mat-toolbar> -->
+    <div style="width:100%;">
+        <section class="slider" class="text-center price-div">
+        	${{totalPrice}}
+      	</section>
+      	<section class="slider text-center">
+        		Quantity: <input class="quantity-input" type="text" value="1" placeholder="0">
+      	</section>
+      	<section class="slider text-center">
+      			<button mat-raised-button color="">Check Out</button>
+      	</section>
+    </div>
+	<div class="images-list">
+	
+	</div>
+</div>
+<style>
+#droppable { height: 140px; border: black 1px solid;}
+    </style>

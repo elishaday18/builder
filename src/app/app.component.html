@@ -1,0 +1,43 @@
+  <mat-sidenav-container flex class="example-sidenav-container"
+                         [style.marginTop.px]="mobileQuery.matches ? 56 : 0">
+    <mat-sidenav #snav [mode]="'over'"
+                 [fixedInViewport]="mobileQuery.matches" fixedTopGap="56">
+      <mat-nav-list>
+        <div class="row text-align-right">
+          <mat-icon (click)="snav.toggle()"><span class="close-icon"></span></mat-icon>
+        </div>
+        <mat-list>
+          <mat-list-item class="user-name white-item" *ngIf="user"><img class="user-image" src="/assets/images/images.png">{{user.name}}</mat-list-item>
+          <mat-list-item class="white-item" (click)="openInspireMe();snav.toggle();"><span class="inspire-me-icon"></span>Inspire Me</mat-list-item>
+          <ng-container *ngIf="!user">  
+            <mat-list-item class="white-item" (click)="openLoginModal();snav.toggle();"><span class="log-in-icon"></span>Log In</mat-list-item>
+          </ng-container>
+          <ng-container *ngIf="user">
+            <mat-list-item class="white-item" (click)="logout();snav.toggle();"><span class="log-in-icon"></span>Log Out</mat-list-item>
+          </ng-container>
+          <mat-list-item class="white-item"><span class="load-icon"></span>Load</mat-list-item>
+          <mat-list-item class="white-item"><span class="save-icon"></span>Save</mat-list-item>
+          <mat-list-item class="white-item" (click)="openFaq();snav.toggle();"><span class="faq-icon"></span>F.A.Q</mat-list-item>
+          <mat-list-item class="white-item"><span class="how-to-icon"></span>How To</mat-list-item>
+          <mat-list-item class="white-item"><span class="share-icon"></span>Share</mat-list-item>
+        </mat-list>
+      </mat-nav-list>
+    </mat-sidenav>
+
+    <mat-sidenav-content flex>
+      <div class="example-container" [class.example-is-mobile]="mobileQuery.matches">
+        <mat-toolbar class="example-toolbar">
+          <span (click)="snav.toggle()" class="menu-icon"></span>
+          <span class="example-spacer">meira<font class="logo-t">t</font></span>
+          <a routerLink="/"><mat-icon class="example-icon"  class="home-icon"></mat-icon></a>
+        </mat-toolbar>
+        <!-- <div class="container" flex>
+
+        </div> -->
+        <div class="images-container" flex>
+          <simple-notifications [options]="options"></simple-notifications>
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </mat-sidenav-content>
+  </mat-sidenav-container>

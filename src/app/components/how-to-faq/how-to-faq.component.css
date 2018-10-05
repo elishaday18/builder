@@ -1,0 +1,34 @@
+.landing-page-image {
+	width: 100%;
+	cursor: pointer;
+}
+
+.heading {
+	font-size: 20px;
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.spacer {
+	margin-top: 10px;
+	margin-bottom:10px;
+	height: 20px;
+	font-size:15px;
+	color: #000;
+    font-weight: bold;
+	text-align: center;
+}
+
+.header-text {
+	font-weight: bold;
+	color: #000;
+}
+
+p {
+	color: #000;
+}
+
+.container {
+	padding: 30px 20px 60px 20px;
+}
